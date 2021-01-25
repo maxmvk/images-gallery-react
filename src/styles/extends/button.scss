@@ -1,0 +1,17 @@
+%button {
+  text-transform: none;
+  border-radius: 0;
+  box-shadow: none;
+  font-family: "Taviraj";
+  font-weight: 500;
+  font-size: 20px;
+  height: 68px;
+
+  &:hover {
+    box-shadow: none;
+  }
+
+  &:active {
+    box-shadow: none;
+  }
+}

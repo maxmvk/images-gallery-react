@@ -1,0 +1,1 @@
+export const SERVER_URL = "http://isocial-api.dev.sevn.pro/api/";

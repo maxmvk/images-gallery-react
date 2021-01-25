@@ -1,0 +1,30 @@
+@import "src/styles/index";
+
+label + .MuiInput-formControl {
+  margin-top: 32px;
+}
+
+.MuiFormLabel-root {
+  color: $black-color;
+  font-family: "Taviraj";
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 32px;
+}
+
+.MuiInputBase-input {
+  font-family: "Taviraj";
+  font-size: unset;
+}
+
+.MuiInput-input {
+  font-size: 20px;
+}
+
+.MuiSelect-select:focus {
+  background-color: transparent
+}
+
+.MuiOutlinedInput-notchedOutline {
+  border: none;
+}

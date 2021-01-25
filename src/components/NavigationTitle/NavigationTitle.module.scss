@@ -1,0 +1,21 @@
+@import "src/styles/index";
+
+.navContainer {
+  display: flex;
+}
+
+.nav {
+  display: flex;
+  
+  &__link {
+    font-size: 36px;
+    font-weight: 600;
+    white-space: nowrap;
+    margin: 0 5px;
+    color: $dark-blue-color;
+  }
+
+  &__link_active {
+    color: $green-color;
+  }
+}

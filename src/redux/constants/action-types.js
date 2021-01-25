@@ -1,0 +1,9 @@
+export const SET_AUTH = "SET_AUTH";
+export const SET_LOGIN_ERROR = "SET_LOGIN_ERROR";
+export const SET_SIGN_UP_ERROR = "SET_SIGN_UP_ERROR";
+export const SET_USER_ID = "SET_USER_ID";
+export const SET_FULL_NAME = "SET_FULL_NAME";
+export const SET_PAGE = "SET_PAGE";
+export const SET_FILTER = "SET_FILTER";
+export const SET_TOTAL_COUNT = "SET_TOTAL_COUNT";
+export const SET_IMAGES = "SET_IMAGES";

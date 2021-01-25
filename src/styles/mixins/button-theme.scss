@@ -1,0 +1,8 @@
+@mixin button-theme($bg-color, $color-text) {
+  color: $color-text;
+  background-color: $bg-color;
+  
+  &:hover {
+    background-color: lighten($bg-color, 10%);
+  }
+}

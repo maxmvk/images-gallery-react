@@ -1,0 +1,9 @@
+@import "src/styles/index";
+
+.loginContainer {
+  @include default-container;
+  min-height: 607px;
+  max-height: 607px;
+  max-width: 540px;
+  margin: 15px;
+}

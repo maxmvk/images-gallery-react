@@ -1,0 +1,28 @@
+@import "src/styles/index";
+
+.filter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 310px;
+  height: 58px;
+  padding: 11px 23px 11px 43px;
+  background-color: #F6F7F8;
+  
+  &__label {
+    margin: 0;
+    font-size: 15px;
+    white-space: nowrap;
+  }
+
+  &__control {
+    height: 100%;
+    width: 161px;
+  }
+
+  &__select {
+    font-size: 15px;
+    height: 100%;
+    border: 2px solid #F1F3F4;
+  }
+}
